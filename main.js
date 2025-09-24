@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello From Vaibhav Rautela this is CI-CD Node");
+  res.send("Hello From Vaibhav Rautela");
 });
 
 app.listen(PORT, () => {
